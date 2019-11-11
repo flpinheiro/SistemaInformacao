@@ -1,0 +1,9 @@
+D:\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Repository\bin\Debug\netcoreapp3.0\BusExpress.Repository.deps.json
+D:\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Repository\bin\Debug\netcoreapp3.0\BusExpress.Repository.dll
+D:\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Repository\bin\Debug\netcoreapp3.0\BusExpress.Repository.pdb
+D:\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Repository\obj\Debug\netcoreapp3.0\BusExpress.Repository.csprojAssemblyReference.cache
+D:\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Repository\obj\Debug\netcoreapp3.0\BusExpress.Repository.AssemblyInfoInputs.cache
+D:\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Repository\obj\Debug\netcoreapp3.0\BusExpress.Repository.AssemblyInfo.cs
+D:\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Repository\obj\Debug\netcoreapp3.0\BusExpress.Repository.dll
+D:\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Repository\obj\Debug\netcoreapp3.0\BusExpress.Repository.pdb
+D:\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Repository\bin\Debug\netcoreapp3.0\BusExpress.Model.dll

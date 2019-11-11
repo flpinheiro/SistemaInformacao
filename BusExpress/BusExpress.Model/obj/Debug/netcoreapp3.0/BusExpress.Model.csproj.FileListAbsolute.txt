@@ -1,0 +1,8 @@
+D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Model\bin\Debug\netcoreapp3.0\BusExpress.Model.deps.json
+D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Model\bin\Debug\netcoreapp3.0\BusExpress.Model.dll
+D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Model\bin\Debug\netcoreapp3.0\BusExpress.Model.pdb
+D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Model\obj\Debug\netcoreapp3.0\BusExpress.Model.csprojAssemblyReference.cache
+D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Model\obj\Debug\netcoreapp3.0\BusExpress.Model.AssemblyInfoInputs.cache
+D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Model\obj\Debug\netcoreapp3.0\BusExpress.Model.AssemblyInfo.cs
+D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Model\obj\Debug\netcoreapp3.0\BusExpress.Model.dll
+D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Model\obj\Debug\netcoreapp3.0\BusExpress.Model.pdb
