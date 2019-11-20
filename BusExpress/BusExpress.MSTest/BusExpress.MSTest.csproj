@@ -13,4 +13,11 @@
     <PackageReference Include="coverlet.collector" Version="1.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BusExpress.Model\BusExpress.Model.csproj" />
+    <ProjectReference Include="..\BusExpress.MVC\BusExpress.MVC.csproj" />
+    <ProjectReference Include="..\BusExpress.Repository\BusExpress.Repository.csproj" />
+    <ProjectReference Include="..\BusExpress.Service\BusExpress.Service.csproj" />
+  </ItemGroup>
+
 </Project>

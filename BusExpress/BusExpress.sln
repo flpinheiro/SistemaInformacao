@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusExpress", "BusExpress\BusExpress.csproj", "{AB3316E4-E17F-4C9F-9B94-E4BE572C8FF9}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusExpress.Model", "BusExpress.Model\BusExpress.Model.csproj", "{AB4A2B79-A942-40D2-A4CD-E68A1161D87B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusExpress.Repository", "BusExpress.Repository\BusExpress.Repository.csproj", "{E82A671D-7E12-4ACD-85B2-ED9B00A6000D}"
@@ -15,16 +13,22 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusExpress.MVC", "BusExpres
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusExpress.MSTest", "BusExpress.MSTest\BusExpress.MSTest.csproj", "{16B42132-CC9E-49E7-A26F-953B1EAC74CD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Test", "5.Test", "{6D797D8F-A3C9-411F-ADC4-DA49551A9AE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.View", "0.View", "{D1C91DF4-ADDA-41B7-8743-F38857B0210B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Service", "1.Service", "{6D464DDC-8466-482E-BD50-54FCDE04E105}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Model", "2.Model", "{E5E6006E-11B6-4A9F-B313-970A90CFBF6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Repository", "4.Repository", "{C3E0FF7A-8873-478A-82F7-633E852EAD73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AB3316E4-E17F-4C9F-9B94-E4BE572C8FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AB3316E4-E17F-4C9F-9B94-E4BE572C8FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AB3316E4-E17F-4C9F-9B94-E4BE572C8FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AB3316E4-E17F-4C9F-9B94-E4BE572C8FF9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AB4A2B79-A942-40D2-A4CD-E68A1161D87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AB4A2B79-A942-40D2-A4CD-E68A1161D87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB4A2B79-A942-40D2-A4CD-E68A1161D87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -48,6 +52,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB4A2B79-A942-40D2-A4CD-E68A1161D87B} = {E5E6006E-11B6-4A9F-B313-970A90CFBF6E}
+		{E82A671D-7E12-4ACD-85B2-ED9B00A6000D} = {C3E0FF7A-8873-478A-82F7-633E852EAD73}
+		{C4232CDB-AF44-4085-BB3D-DF8876470C9F} = {6D464DDC-8466-482E-BD50-54FCDE04E105}
+		{33F8722D-C249-4429-80AB-AD50B2F579F4} = {D1C91DF4-ADDA-41B7-8743-F38857B0210B}
+		{16B42132-CC9E-49E7-A26F-953B1EAC74CD} = {6D797D8F-A3C9-411F-ADC4-DA49551A9AE7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3714FB61-16DC-4C5F-98FC-7FD8D549BA24}
