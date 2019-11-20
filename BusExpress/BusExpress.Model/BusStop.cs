@@ -6,7 +6,8 @@ namespace BusExpress.Model
 {
     public class BusStop
     {
-        public Location Location { get; set; }
+        public float Latitude { get; set; }
+        public float Longitude { get; set; }
 
         public IList<BusStopLine> BusStopLine { get; set; }
 

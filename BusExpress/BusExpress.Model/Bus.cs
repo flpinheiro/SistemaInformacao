@@ -13,7 +13,9 @@ namespace BusExpress.Model
         public Company Company { get; set; }
 
         [NotMapped]
-        public Location RealTimeLocation { get; set; }
+        public float RealTimeLongitude { get; set; }
+        [NotMapped]
+        public float RealTimeLatitude { get; set; }
 
         public IList<BusStopLine> BusStopLine { get; set; }
 
