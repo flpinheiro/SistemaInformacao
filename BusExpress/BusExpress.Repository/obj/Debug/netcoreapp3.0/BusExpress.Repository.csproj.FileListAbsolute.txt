@@ -20,3 +20,5 @@ D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.R
 D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Repository\obj\Debug\netcoreapp3.0\BusExpress.Repository.pdb
 D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Repository\bin\Debug\netcoreapp3.0\BusExpress.Repository.runtimeconfig.json
 D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Repository\bin\Debug\netcoreapp3.0\BusExpress.Repository.runtimeconfig.dev.json
+D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Repository\bin\Debug\netcoreapp3.0\appsettings.Development.json
+D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.Repository\bin\Debug\netcoreapp3.0\appsettings.json

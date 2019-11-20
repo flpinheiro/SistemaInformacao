@@ -6,7 +6,6 @@ namespace BusExpress.Model
 {
     public class BusStopLine
     {
-        public int BusStopId { get; set; }
         public BusStop BusStop { get; set; }
 
         public BusLine BusLine { get; set; }

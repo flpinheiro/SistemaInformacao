@@ -1,11 +1,17 @@
 ﻿using BusExpress.Model;
+using JetBrains.Annotations;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace BusExpress.Repository
 {
     public class BusExpressContext : DbContext
     {
+        public BusExpressContext([NotNullAttribute] DbContextOptions options) : base(options)
+        {
+        }
+
         public DbSet<User> Users { get; set; }
         public DbSet<BusLine> BusLines { get; set; }
         public DbSet<BusStop> BusStops { get; set; }
@@ -15,6 +21,8 @@ namespace BusExpress.Repository
         {
             base.OnModelCreating(modelBuilder);
 
+            modelBuilder.HasDefaultSchema("BusExpress");
+
             modelBuilder.Entity<User>(u => 
             {
                 u.HasKey(us => us.Id);            
@@ -22,7 +30,7 @@ namespace BusExpress.Repository
 
             modelBuilder.Entity<BusStop>(u => 
             {
-                u.HasKey(us => new { us.Location.Latitude, us.Location.Longitude });
+                u.HasKey(us => new { us.Latitude, us.Longitude });
             });
 
             modelBuilder.Entity<Company>(u => 
@@ -45,7 +53,15 @@ namespace BusExpress.Repository
                 u.HasKey(us => us.UserId);
             });
 
+            modelBuilder.Entity<BusStopLine>(u => 
+            {
+                u.HasKey(us => new {us.BusLineId, us.BusStop});
+            });
 
+            modelBuilder.Entity<Route>(u => 
+            {
+                u.HasKey(us => new {us.UserId, us.Name });
+            });
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

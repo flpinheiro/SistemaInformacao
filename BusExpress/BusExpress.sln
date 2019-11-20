@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusExpress", "BusExpress\BusExpress.csproj", "{AB3316E4-E17F-4C9F-9B94-E4BE572C8FF9}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusExpress.Model", "BusExpress.Model\BusExpress.Model.csproj", "{AB4A2B79-A942-40D2-A4CD-E68A1161D87B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusExpress.Repository", "BusExpress.Repository\BusExpress.Repository.csproj", "{E82A671D-7E12-4ACD-85B2-ED9B00A6000D}"
@@ -13,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusExpress.Service", "BusEx
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusExpress.MVC", "BusExpress.MVC\BusExpress.MVC.csproj", "{33F8722D-C249-4429-80AB-AD50B2F579F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusExpress.MSTest", "BusExpress.MSTest\BusExpress.MSTest.csproj", "{16B42132-CC9E-49E7-A26F-953B1EAC74CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusExpress.MSTest", "BusExpress.MSTest\BusExpress.MSTest.csproj", "{16B42132-CC9E-49E7-A26F-953B1EAC74CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AB3316E4-E17F-4C9F-9B94-E4BE572C8FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AB3316E4-E17F-4C9F-9B94-E4BE572C8FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AB3316E4-E17F-4C9F-9B94-E4BE572C8FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AB3316E4-E17F-4C9F-9B94-E4BE572C8FF9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AB4A2B79-A942-40D2-A4CD-E68A1161D87B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AB4A2B79-A942-40D2-A4CD-E68A1161D87B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB4A2B79-A942-40D2-A4CD-E68A1161D87B}.Release|Any CPU.ActiveCfg = Release|Any CPU
