@@ -8,6 +8,7 @@ namespace BusExpress.Model
 {
     public class Bus
     {
+        [MaxLength(8)]
         public string LicensePlate { get; set; }
         public int CompanyId { get; set; }
         public Company Company { get; set; }
@@ -17,6 +18,7 @@ namespace BusExpress.Model
         [NotMapped]
         public float RealTimeLatitude { get; set; }
 
+        [NotMapped]
         public IList<BusStopLine> BusStopLine { get; set; }
 
         public Bus()

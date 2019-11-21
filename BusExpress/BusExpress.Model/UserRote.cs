@@ -4,11 +4,11 @@ using System.Text;
 
 namespace BusExpress.Model
 {
-    class UserRote
+    public class UserRote
     {
         public int UserId { get; set; }
-        public User User { get; set; }
+        public virtual ICollection<User> User { get; set; }
         public int RoutesId { get; set; }
-        public Route Route { get; set; }
+        public virtual ICollection<Route> Route { get; set; }
     }
 }

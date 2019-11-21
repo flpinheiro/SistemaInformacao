@@ -1,4 +1,3 @@
-D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.MVC\obj\Debug\netcoreapp3.0\BusExpress.MVC.csprojAssemblyReference.cache
 D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.MVC\bin\Debug\netcoreapp3.0\appsettings.Development.json
 D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.MVC\bin\Debug\netcoreapp3.0\appsettings.json
 D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.MVC\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
@@ -49,6 +48,7 @@ D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.M
 D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.MVC\bin\Debug\netcoreapp3.0\BusExpress.Service.pdb
 D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.MVC\bin\Debug\netcoreapp3.0\BusExpress.Model.pdb
 D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.MVC\bin\Debug\netcoreapp3.0\BusExpress.Repository.pdb
+D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.MVC\obj\Debug\netcoreapp3.0\BusExpress.MVC.csprojAssemblyReference.cache
 D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.MVC\obj\Debug\netcoreapp3.0\staticwebassets\BusExpress.MVC.StaticWebAssets.Manifest.cache
 D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.MVC\obj\Debug\netcoreapp3.0\staticwebassets\BusExpress.MVC.StaticWebAssets.xml
 D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.MVC\obj\Debug\netcoreapp3.0\BusExpress.MVC.MvcApplicationPartsAssemblyInfo.cache

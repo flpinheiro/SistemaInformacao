@@ -11,7 +11,9 @@ namespace BusExpress.Model
         public string Name { get; set; }
         public int UserId { get; set; }
         public User User { get; set; }
+        public int StartPointId { get; set; }
         public BusStop StartPoint { get; set; }
+        public int EndPointId { get; set; }
         public BusStop EndPoint { get; set; }
         public DateTime? ArrivalTime { get; set; }
         public DateTime? DepartureTime { get; set; }

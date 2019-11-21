@@ -3,9 +3,8 @@ using System.Collections.Generic;
 
 namespace BusExpress.Model
 {
-    public class User
+    public class User :BaseEntity
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public string SurName { get; set; }
         public string CPF { get; set; }
