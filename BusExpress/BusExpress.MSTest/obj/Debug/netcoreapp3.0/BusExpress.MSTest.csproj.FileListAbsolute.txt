@@ -89,3 +89,4 @@ D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.M
 D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.MSTest\obj\Debug\netcoreapp3.0\BusExpress.MSTest.csproj.CopyComplete
 D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.MSTest\obj\Debug\netcoreapp3.0\BusExpress.MSTest.dll
 D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.MSTest\obj\Debug\netcoreapp3.0\BusExpress.MSTest.pdb
+D:\flpin\OneDrive\computação\2019-02\SistemaInformacao\BusExpress\BusExpress.MSTest\obj\Debug\netcoreapp3.0\BusExpress.MSTest.csprojAssemblyReference.cache

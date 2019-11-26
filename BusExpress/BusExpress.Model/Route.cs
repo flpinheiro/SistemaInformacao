@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BusExpress.Model
 {
-    public class Route
+    public class Route :BaseEntity
     {
         [MaxLength(25)]
         public string Name { get; set; }
@@ -18,10 +18,11 @@ namespace BusExpress.Model
         public DateTime? ArrivalTime { get; set; }
         public DateTime? DepartureTime { get; set; }
 
-        public IList<BusLine> Lines { get; set; }
+        
+        public IList<RouteLine> RouteLine { get; set; }
         public Route()
         {
-            Lines = new List<BusLine>();
+            RouteLine = new List<RouteLine>();
         }
     }
 }

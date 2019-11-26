@@ -33,9 +33,6 @@ namespace BusExpress.Repository
                 u.HasKey(us => us.Id);
                 u.HasAlternateKey(us => new { us.Latitude, us.Longitude })
                 .HasName("Location");
-                u.HasOne(us => us.BusStopLine)
-                .WithMany(us => us.BusStop)
-                .HasForeignKey(us => us.Id);
             });
 
             modelBuilder.Entity<Company>(u =>
@@ -55,11 +52,8 @@ namespace BusExpress.Repository
 
             modelBuilder.Entity<BusLine>(u =>
             {
-                u.HasKey(us => new { us.Number, us.DotNumber });
-                u.HasOne(us => us.BusStopLine)
-                .WithMany(us => us.BusLine)
-                .HasForeignKey(us => new { us.Number, us.DotNumber })
-                .OnDelete(DeleteBehavior.Cascade);
+                u.HasKey(us => us.Id);
+                u.HasAlternateKey(us => new { us.Number, us.DotNumber });
             });
 
             modelBuilder.Entity<Card>(u =>
@@ -72,34 +66,41 @@ namespace BusExpress.Repository
 
             modelBuilder.Entity<BusStopLine>(u =>
             {
-                u.HasKey(us => new { us.BusStopId, us.Number, us.DotNumber });
-                //u.HasMany(us => us.)
-                //u.HasOne(us => us.BusLine)
-                //.WithMany(us => us.BusStopLine)
-                //.HasForeignKey(us => new {us.Number, us.DotNumber })
-                //.OnDelete(DeleteBehavior.Cascade);
-                //u.HasOne(us => us.BusStop)
-                //.WithMany(us => us.BusStopLine)
-                //.HasForeignKey(us => us.BusStopId)
-                //.OnDelete(DeleteBehavior.Cascade);
+                u.HasKey(us => new { us.BusStopId, us.BusLineId });
+                u.HasOne(us => us.BusLine)
+                .WithMany(us => us.BusStopLine)
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasForeignKey(us => us.BusLineId);
+                u.HasOne(us => us.BusStop)
+                .WithMany(us => us.BusStopLine)
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasForeignKey(us => us.BusStopId);
             });
 
             modelBuilder.Entity<Route>(u =>
             {
-                u.HasKey(us => new { us.UserId, us.Name });
-                u.HasOne(us => us.StartPoint)
-                .WithMany()
-                .HasForeignKey(us => us.StartPointId)
-                .OnDelete(DeleteBehavior.NoAction);
-                u.HasOne(us => us.EndPoint)
-                .WithMany()
-                .HasForeignKey(us => us.EndPointId)
-                .OnDelete(DeleteBehavior.NoAction);
+                u.HasKey(us => us.Id);
+                u.HasAlternateKey(us => new { us.UserId, us.Name });
+                u.HasOne<BusStop>(us => us.StartPoint).WithMany("Route").HasForeignKey(us => us.StartPointId);
+                u.HasOne<BusStop>(us => us.EndPoint).WithMany("Route").HasForeignKey(us => us.EndPointId);
             });
 
-            modelBuilder.Entity<UserRote>(u => 
+            modelBuilder.Entity<RouteLine>(u =>
             {
-                u.HasKey(us => new {us.UserId, us.RoutesId });
+                u.HasKey(us => new { us.BusLineId, us.RouteId });
+                u.HasOne(us => us.Route)
+                .WithMany(us => us.RouteLine)
+                .HasForeignKey(us => us.RouteId)
+                .OnDelete(DeleteBehavior.Cascade);
+                u.HasOne(us => us.BusLine)
+                .WithMany(us => us.RouteLine)
+                .HasForeignKey(us => us.BusLineId)
+                .OnDelete(DeleteBehavior.Cascade);
+            });
+
+            modelBuilder.Entity<UserRote>(u =>
+            {
+                u.HasKey(us => new { us.UserId, us.RoutesId });
             });
         }
 
